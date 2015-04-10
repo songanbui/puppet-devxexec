@@ -15,9 +15,7 @@
 
 ## Overview
 
-A one-maybe-two sentence summary of what the module does/what problem it solves.
-This is your 30 second elevator pitch for your module. Consider including
-OS/Puppet version it works with.
+This module installs the **Devxexec** application made by [DEVELOPEX](http://developex.com/custom-software/devx-exec.html). **Devxexec** is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](http://creativecommons.org/licenses/by-nc-nd/3.0/).
 
 ## Module Description
 
