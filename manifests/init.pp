@@ -37,6 +37,8 @@
 #
 class devxexec (
   $install_path = 'C:\devxexec',
+  $username     = 'Administrator',
+  $password     = 'defaultpwd',
 ) {
     $path = "${install_path}\\devxexec.exe"
     file { $install_path :
@@ -46,8 +48,8 @@ class devxexec (
     }
     ->
     file { $path :
-      ensure => present,
-      source => 'puppet:///modules/devxexec/devxexec.exe',
+      ensure             => present,
+      source             => 'puppet:///modules/devxexec/devxexec.exe',
       source_permissions => ignore,
     }
 }
